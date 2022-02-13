@@ -248,3 +248,23 @@ body {
 .footer-link-phone:focus {
   color: var(--link-active-clr);
 }
+
+/* оформление кнопок навигации */
+
+.nav-btn-txt {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: var(--dark-txt-clr);
+}
+
+.nav-btn-txt:hover,
+.nav-btn-txt:focus {
+  color: var(--light-txt-clr);
+}
+
+.nav-button:hover,
+.nav-button:focus {
+  background-color: var(--link-active-clr);
+}
