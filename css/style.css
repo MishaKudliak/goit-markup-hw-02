@@ -1,3 +1,250 @@
+:root {
+  /* основные шрифты */
+
+  --main-font: 'Roboto' sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+
+  /* светлая тема текста */
+
+  --light-txt-clr: #ffffff;
+
+  /* темная тема текста */
+
+  --dark-txt-clr: #212121;
+  --secondary-dark-txt: #757575;
+
+  /* светлый цвет фона */
+
+  --primary-bg-clr: #e5e5e5;
+
+  /* темный цвет фона */
+
+  --dark-bg-clr: #2f303a;
+
+  /* активная ссылка (hover) */
+
+  --link-active-clr: #2196f3;
+}
+
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--secondary-dark-txt);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* подзаголовки h3 */
+
+.subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--dark-txt-clr);
+}
+
+/* текст в кнопках */
+
+.btn-txt {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--dark-txt-clr);
+}
+
+.logo {
+  text-decoration: none;
+}
+
+/* первое слово в лого  */
+
+.logo-web {
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--link-active-clr);
+}
+
+/* второе слово в лого (header) */
+
+.logo-studio {
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--dark-txt-clr);
+}
+
+.logo-studio-footer {
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--light-txt-clr);
+}
+
+/* ссылки на страницы */
+.page-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--dark-txt-clr);
+}
+.page-link:hover,
+.page-link:focus {
+  color: var(--link-active-clr);
+  cursor: pointer;
+}
+
+/* ссылки контакты в header */
+
+.header-mail,
+.header-phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-dark-txt);
+}
+
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--link-active-clr);
+}
+.header-phone:hover,
+.header-phone:focus {
+  color: var(--link-active-clr);
+}
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--light-txt-clr);
+}
+
+/* текст в кнопке hero */
+.hero-btn-txt {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--light-txt-clr);
+}
+
+/* кнопка hero */
+.hero-button {
+  background-color: var(--link-active-clr);
+  cursor: pointer;
+}
+
+.benefits-item-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--dark-txt-clr);
+}
+
+.benefits-descript {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--secondary-dark-txt);
+}
+
+.main-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--dark-txt-clr);
+}
+
+.card-descript {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18px;
+  letter-spacing: 0.03em;
+  color: var(--secondary-dark-txt);
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-contacts {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link-map {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--light-txt-clr);
+}
+
+.footer-link-map:hover,
+.footer-link-map:focus {
+  color: var(--link-active-clr);
+}
+
+.footer-link-mail:hover,
+.footer-link-mail:focus {
+  color: var(--link-active-clr);
+}
+
+.footer-link-mail {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link-phone {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link-phone:hover,
+.footer-link-phone:focus {
+  color: var(--link-active-clr);
 }
