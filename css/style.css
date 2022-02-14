@@ -1,7 +1,7 @@
 :root {
   /* основные шрифты */
 
-  --main-font: 'Roboto' sans-serif;
+  --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
 
   /* светлая тема текста */
