@@ -248,8 +248,12 @@ body {
 
 .nav-button {
   background: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
   border-radius: 4px;
   cursor: pointer;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
 }
 
 .nav-button:hover,
@@ -260,7 +264,7 @@ body {
   border-radius: 4px;
 }
 
-.nav-btn-txt {
+/* .nav-btn-txt {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -271,7 +275,7 @@ body {
 .nav-btn-txt:hover,
 .nav-btn-txt:focus {
   color: var(--light-txt-clr);
-}
+} */
 
 .project-item-title {
   font-size: 18px;
