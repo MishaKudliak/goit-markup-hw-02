@@ -91,7 +91,7 @@ body {
 
 .logo-studio-footer {
   font-family: var(--secondary-font);
-
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -154,12 +154,14 @@ body {
 
 /* текст в кнопке hero */
 .hero-btn-txt {
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   color: var(--light-txt-clr);
 }
 
 .benefits-item-title {
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -177,6 +179,7 @@ body {
 /* Заголовки h2 */
 
 .main-title {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -278,6 +281,7 @@ body {
 } */
 
 .project-item-title {
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
