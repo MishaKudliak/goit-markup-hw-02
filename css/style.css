@@ -30,7 +30,7 @@ body {
   color: var(--secondary-dark-txt);
 }
 
-/* сброс отступов (заголовки + текст) */
+/* сброс отступов (заголовки + текст + списки) */
 
 h1,
 h2,
@@ -38,14 +38,17 @@ h3,
 h4,
 h5,
 h6,
+ul,
 p {
-  margin: 0;
-  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-
 /* убираем маркеры в списках и подчеркивание в ссылках */
 
 .list {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   list-style: none;
 }
 
@@ -78,6 +81,7 @@ p {
 
 .logo {
   text-decoration: none;
+  margin-right: 93px;
 }
 
 /* первое слово в лого  */
@@ -119,7 +123,10 @@ p {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--dark-txt-clr);
+
+  margin-right: 50px;
 }
+
 .page-link:hover,
 .page-link:focus {
   color: var(--link-active-clr);
@@ -134,6 +141,7 @@ p {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-dark-txt);
+  margin-right: 50px;
 }
 
 .header-mail:hover,
@@ -143,6 +151,24 @@ p {
 .header-phone:hover,
 .header-phone:focus {
   color: var(--link-active-clr);
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-contacts {
+  display: flex;
+  margin-left: auto;
+}
+
+.page-nav-list {
+  display: flex;
+}
+
+.page-nav-item:last-child {
+  margin: 0;
 }
 
 .hero {
@@ -280,19 +306,6 @@ p {
   border-radius: 4px;
 }
 
-/* .nav-btn-txt {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-  color: var(--dark-txt-clr);
-}
-
-.nav-btn-txt:hover,
-.nav-btn-txt:focus {
-  color: var(--light-txt-clr);
-} */
-
 .project-item-title {
   font-weight: 700;
   font-size: 18px;
@@ -305,4 +318,12 @@ p {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
